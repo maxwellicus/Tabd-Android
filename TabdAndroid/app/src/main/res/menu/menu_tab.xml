@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+    <item
+        android:id="@+id/open_tab"
+        android:icon="@drawable/tabd_logo"
+        android:title="Receive Tab"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/discover_tab"
+        android:icon="@drawable/discovery_logo"
+        android:title="Discover Tab"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/send_tab"
+        android:icon="@drawable/up_arrow"
+        android:title="Send Tab"
+        app:showAsAction="always"
+        android:onClick="sendTab"/>
+
+    <item
+        android:id="@+id/share_tab"
+        android:title="Share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/refresh_tab"
+        android:title="Refresh"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/open_in_browser"
+        android:title="Open In Browser"
+        app:showAsAction="never" />
+    <!--
+        <item
+            android:id="@+id/action_menu"
+            android:icon="@drawable/ic_menu_black_48dp"
+            android:title="Menu"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/action_tabd_logo"
+            android:icon="@drawable/tabd_logo"
+            android:title="Tabd Title"
+            app:showAsAction="always"/>
+    -->
+</menu>

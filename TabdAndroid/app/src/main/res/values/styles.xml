@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/tabdGreen</item>
+        <item name="colorPrimaryDark">@color/tabdBlack</item>
+        <item name="colorAccent">@color/tabdWhite</item>
+
+        <item name="colorControlNormal">@color/tabdBlack</item>
+        <item name="colorControlActivated">@color/tabdBlack</item>
+        <item name="colorControlHighlight">@color/tabdBlack</item>
+    </style>
+
+    <style name="ThemeToolbar" parent="Theme.AppCompat.Light">
+
+        <!-- navigation icon color -->
+        <item name="colorControlNormal">@color/tabdWhite</item>
+
+        <!-- color of the menu overflow icon -->
+        <item name="android:textColorPrimary">@color/tabdWhite</item>
+        <item name="android:textColorSecondary">@color/tabdWhite</item>
+
+        <item name="android:colorBackground">@color/tabdBlack</item>
+        <item name="android:textColor">@color/tabdWhite</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/tabdBlack</item>
+    </style>
+
+</resources>
